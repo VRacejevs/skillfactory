@@ -30,3 +30,7 @@ def game_core_v3(number):
             up_bound = predict
             predict = (up_bound + low_bound) // 2
     return count
+
+
+# запускаем
+score_game(game_core_v3)
